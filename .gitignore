@@ -1,0 +1,8 @@
+# Bazel directories
+/bazel-*
+/bazel-bin
+/bazel-genfiles
+/bazel-out
+/bazel-testlogs
+**/bazel-*
+
