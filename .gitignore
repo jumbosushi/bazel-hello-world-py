@@ -6,3 +6,4 @@
 /bazel-testlogs
 **/bazel-*
 
+skyframe_dump.txt
