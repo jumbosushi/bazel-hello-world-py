@@ -1,2 +1,2 @@
-def get_greeting():
+def greeting():
     return "hello world"

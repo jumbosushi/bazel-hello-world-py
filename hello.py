@@ -1,4 +1,3 @@
-from one import get_greeting
-from two import get_source
+from lib import greeting
 
-print(f"{get_greeting()} {get_source()}!")
+print(f"{greeting()}!")

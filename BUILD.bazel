@@ -4,7 +4,6 @@ py_binary(
     name = "hello",
     srcs = [
         "hello.py",
-        "one.py",
-        "two.py",
+        "lib.py",
     ],
 )
