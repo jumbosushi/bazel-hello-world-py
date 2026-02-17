@@ -93,6 +93,7 @@ class Executor:
                     remaining = self.graph.waiting_on[parent]
                     print(f"      signal {parent} ({remaining} remaining)")
                     if remaining == 0:
+                        print(f"      -> re-enqueue {parent}")
                         self.queue.append(parent)
             else:
                 self.graph.waiting_on[key] = len(env._new_deps)
