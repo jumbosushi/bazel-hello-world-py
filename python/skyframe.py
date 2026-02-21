@@ -3,7 +3,7 @@ Minimal Skyframe: restart-based evaluation with signaling
 """
 
 # ============================================================================
-# Core Framework (~50 lines)
+# Core Framework
 # ============================================================================
 
 class Graph:
