@@ -1,3 +1,4 @@
+.DS_Store
 # Bazel directories
 /bazel-*
 /bazel-bin
