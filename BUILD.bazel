@@ -6,6 +6,6 @@ py_binary(
         "hello.py",
         "lib.py",
     ],
-    pyc_collection = "include_pyc"
+    pyc_collection = "include_pyc",
     precompile_invalidation_mode = "unchecked_hash",
 )
